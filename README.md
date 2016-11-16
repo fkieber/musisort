@@ -90,7 +90,7 @@ tags:
 
 Just put the scrypt in `/usr/local/bin` fo rexemple.
 
-## Dependencys
+## Dependencies
 media-libs/mutagen  (https://github.com/quodlibet/mutagen)
 
 ## To do
