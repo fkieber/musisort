@@ -1,12 +1,17 @@
 # musisort
 Make your music mix from multiple sources
 
+
+
 This python 2 script takes the contents of several directories 
 containing Music and merges it into another directory.
 
 The merge is done to take a file from each SOURCE directory,
 and place them in the DEST directory.
 
+## Usage
+
+```
 usage: musisort [-h] [-V] [-1] [-s] [-f] [-u | -e] [-v] [-d DEST]
                 [-r [REPEAT [REPEAT ...]]] [-j [JUMBLE [JUMBLE ...]]]
                 [-a ARTIST] [-t ALBUM] [-i TITLE] [-m FILE_NAME] [-z]
@@ -79,3 +84,11 @@ tags:
                         fichier sera nomé : "%s_%i - %a".
   -z, --clear_tags      Spécifie si les "Tags" des fichiers de DEST doivent
                         êtres effacés avant d'y stocker les nouveaux Tag.
+```
+
+## Implementation
+
+Just put the scrypt in /usr/local/bin fo rexemple.
+
+## Dependencys
+media-libs/mutagen  (https://github.com/quodlibet/mutagen)
