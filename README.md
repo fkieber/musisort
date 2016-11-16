@@ -94,4 +94,5 @@ Just put the scrypt in /usr/local/bin fo rexemple.
 media-libs/mutagen  (https://github.com/quodlibet/mutagen)
 
 ## To do
-Translate from French
+- Translate from French.
+- Make pyhton3 compatible.
